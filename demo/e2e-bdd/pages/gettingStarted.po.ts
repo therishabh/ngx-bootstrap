@@ -1,7 +1,9 @@
 import { $, ElementFinder } from 'protractor';
-import { BasePagePo } from '../shared/pages/basePage.po';
 
-export class GettingStartedPo extends BasePagePo {
-  pageUrl = 'getting-started';
+import { BasePo } from '../shared/pages/basePage.po';
+
+export class GettingStartedPo extends BasePo {
+  templateUrl = 'getting-started';
   angularLogo: ElementFinder = $('[alt*="angular logo"]');
+  contentTitle: ElementFinder = $('.content h1');
 }

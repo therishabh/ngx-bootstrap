@@ -3,8 +3,8 @@
     "baseUrl": ".",
     "outDir": "../dist",
 
-    "target": "es5",
-    "module": "esnext",
+    "target": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
     "lib": ["dom", "es7"],
     "emitDecoratorMetadata": true,
